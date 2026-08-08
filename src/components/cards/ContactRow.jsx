@@ -9,13 +9,15 @@ export default function ContactRow({ link, delay = 0 }) {
       <span className="font-mono text-[11px] tracking-[0.12em] uppercase text-panel-dark-ink/70">
         {link.label}
       </span>
-      <span className="text-[clamp(15px,1.9vw,24px)] max-[700px]:text-[clamp(13px,4vw,20px)] font-semibold tracking-[-0.02em] min-w-0 whitespace-nowrap overflow-hidden text-ellipsis max-[480px]:whitespace-normal max-[480px]:overflow-visible max-[480px]:wrap-anywhere">
-        {link.value}
-      </span>
-      <span className="self-center text-panel-dark-ink/70">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-          <path d="M7 17 17 7M8 7h9v9" />
-        </svg>
+      <span className="contents max-[480px]:flex max-[480px]:items-center max-[480px]:gap-3">
+        <span className="text-[clamp(15px,1.9vw,24px)] max-[700px]:text-[clamp(13px,4vw,20px)] font-semibold tracking-[-0.02em] min-w-0 whitespace-nowrap overflow-hidden text-ellipsis max-[480px]:flex-1 max-[480px]:whitespace-normal max-[480px]:overflow-visible max-[480px]:wrap-anywhere">
+          {link.value}
+        </span>
+        <span className="self-center text-panel-dark-ink/70 max-[480px]:flex-none">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg>
+        </span>
       </span>
     </a>
   );

@@ -24,7 +24,7 @@ export default function Hero() {
     <div className="h-screen bg-paper text-ink flex flex-col overflow-hidden max-[900px]:h-auto max-[900px]:min-h-screen max-[900px]:overflow-visible">
       <Header />
       <div className="flex-1 grid grid-cols-[1.15fr_0.85fr] grid-rows-[1fr] items-stretch px-12 min-h-0 max-[900px]:grid-cols-1 max-[900px]:grid-rows-[auto_auto] max-[900px]:px-6">
-        <div className="flex flex-col justify-center pt-12 pr-10 pb-12 max-w-[780px] min-w-0 max-[900px]:max-w-full max-[900px]:py-10 max-[900px]:px-0">
+        <div className="flex flex-col justify-center pt-12 pr-10 pb-12 max-w-[780px] min-w-0 max-[900px]:max-w-full max-[900px]:py-10 max-[900px]:px-0 max-[900px]:items-center max-[900px]:text-center">
           <h1
             style={{ animationDelay: '0.1s' }}
             className="m-0 text-[clamp(52px,7.2vw,112px)] leading-[0.88] font-extrabold tracking-[-0.045em] [text-wrap:balance] animate-[riseIn_0.8s_cubic-bezier(0.2,0.8,0.2,1)_both]"
@@ -36,7 +36,7 @@ export default function Hero() {
 
           <div
             style={{ animationDelay: '0.26s' }}
-            className="flex flex-wrap gap-3 mt-8.5 animate-[riseIn_0.8s_cubic-bezier(0.2,0.8,0.2,1)_both] max-[420px]:gap-2"
+            className="flex flex-wrap gap-3 mt-8.5 animate-[riseIn_0.8s_cubic-bezier(0.2,0.8,0.2,1)_both] max-[420px]:gap-2 max-[900px]:justify-center"
           >
             <Button href="#projets">Voir mes projets</Button>
             <Button href={CV_PATH} download={CV_FILENAME} variant="outline">

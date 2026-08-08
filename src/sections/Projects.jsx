@@ -11,7 +11,7 @@ export default function Projects() {
       <div className="absolute inset-0 bg-[repeating-linear-gradient(97deg,rgba(255,255,255,0.022)_0_2px,rgba(0,0,0,0.05)_2px_6px)]" />
 
       <div className="relative z-1 max-w-280 mx-auto flex flex-col gap-[clamp(26px,4vh,44px)]">
-        <div className="flex items-end justify-between gap-8 flex-wrap animate-[riseIn_0.8s_cubic-bezier(0.2,0.8,0.2,1)_both]">
+        <div className="flex items-end justify-between gap-8 flex-wrap animate-[riseIn_0.8s_cubic-bezier(0.2,0.8,0.2,1)_both] max-[640px]:justify-center max-[640px]:text-center">
           <SectionTitle className="text-[clamp(42px,8vw,118px)] leading-[0.84]">Projets</SectionTitle>
         </div>
 

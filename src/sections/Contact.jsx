@@ -11,7 +11,7 @@ export default function Contact() {
       <div className="relative z-1 max-w-280 mx-auto px-[clamp(24px,5vw,80px)] py-[clamp(76px,12vh,148px)] grid grid-cols-[minmax(0,0.72fr)_minmax(0,1.28fr)] gap-[clamp(40px,6vw,80px)] items-start max-[780px]:grid-cols-1">
         <div
           style={{ animationDelay: '0.08s' }}
-          className="flex flex-col gap-[clamp(24px,3.5vh,40px)] animate-[riseIn_0.9s_cubic-bezier(0.2,0.8,0.2,1)_both]"
+          className="flex flex-col gap-[clamp(24px,3.5vh,40px)] animate-[riseIn_0.9s_cubic-bezier(0.2,0.8,0.2,1)_both] max-[780px]:items-center max-[780px]:text-center"
         >
           <SectionTitle className="text-[clamp(34px,4vw,66px)] leading-[0.84] tracking-[-0.035em]!">
             Contact

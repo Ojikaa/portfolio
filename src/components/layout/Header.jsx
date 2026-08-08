@@ -8,12 +8,12 @@ export default function Header() {
         Cédric Guéguénou
       </a>
       <div className="flex items-center gap-7 max-[640px]:w-full max-[640px]:justify-between">
-        <nav className="flex gap-7 font-mono text-xs tracking-[0.08em] uppercase max-[640px]:gap-1.5 max-[480px]:gap-1 max-[480px]:text-[10px]">
+        <nav className="flex items-center gap-7 font-mono text-xs tracking-[0.08em] uppercase max-[640px]:gap-1.5 max-[480px]:gap-1 max-[480px]:text-[10px]">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-ink no-underline hover:text-accent max-[640px]:inline-flex max-[640px]:items-center max-[640px]:border max-[640px]:border-rule max-[640px]:rounded-full max-[640px]:px-2.5 max-[640px]:py-1.5 max-[640px]:hover:border-ink max-[640px]:hover:text-ink max-[640px]:transition-colors max-[480px]:px-2 max-[480px]:py-1"
+              className="text-ink no-underline hover:text-accent max-[640px]:inline-flex max-[640px]:h-8.5 max-[640px]:items-center max-[640px]:justify-center max-[640px]:border max-[640px]:border-rule max-[640px]:rounded-full max-[640px]:px-2.5 max-[640px]:hover:border-ink max-[640px]:hover:text-ink max-[640px]:transition-colors max-[480px]:px-2"
             >
               {link.label}
             </a>

@@ -13,7 +13,7 @@ export default function About() {
         </span>
       </div>
 
-      <div className="flex flex-col justify-center gap-[clamp(22px,3.4vh,40px)] px-[clamp(40px,6vw,96px)] py-[clamp(56px,9vh,120px)]">
+      <div className="flex flex-col justify-center gap-[clamp(22px,3.4vh,40px)] px-[clamp(40px,6vw,96px)] py-[clamp(56px,9vh,120px)] max-[720px]:items-center max-[720px]:text-center">
         <h2
           style={{ animationDelay: '0.08s' }}
           className="m-0 max-w-[22ch] text-[clamp(30px,5.6vh,64px)] leading-[0.98] font-extrabold tracking-[-0.04em] [text-wrap:balance] animate-[textUp_0.95s_cubic-bezier(0.2,0.8,0.2,1)_both]"
