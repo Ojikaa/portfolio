@@ -303,7 +303,7 @@ export const LogoLoop = memo(
       <div
         ref={containerRef}
         style={{ width: resolvedWidth, ...(scaleOnHover ? { paddingTop: `${logoHeight * 0.1}px`, paddingBottom: `${logoHeight * 0.1}px` } : {}) }}
-        className={`relative ${isVertical ? 'h-full inline-block' : ''} ${className}`}
+        className={`relative overflow-hidden ${isVertical ? 'h-full inline-block' : ''} ${className}`}
         role="region"
         aria-label={ariaLabel}
       >

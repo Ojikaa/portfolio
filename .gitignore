@@ -3,3 +3,4 @@ dist
 .DS_Store
 Photomaton_Magc.pdf
 public/photomaton-magic/Capture d’écran*.png
+.vercel
