@@ -7,8 +7,8 @@ export default function Header() {
       <a href="#" className="text-[15px] font-semibold tracking-[-0.01em] text-ink no-underline">
         Cédric Guéguénou
       </a>
-      <div className="flex items-center gap-7 max-[640px]:w-full max-[640px]:items-start max-[640px]:justify-between">
-        <nav className="flex gap-7 font-mono text-xs tracking-[0.08em] uppercase max-[640px]:gap-4.5 max-[640px]:flex-wrap">
+      <div className="flex items-center gap-7 max-[640px]:w-full max-[640px]:items-start max-[640px]:justify-between max-[480px]:gap-2">
+        <nav className="flex gap-7 font-mono text-xs tracking-[0.08em] uppercase max-[640px]:gap-3 max-[480px]:gap-2 max-[480px]:text-[10px] max-[360px]:tracking-[0.02em]">
           {navLinks.map((link) => (
             <a key={link.href} href={link.href} className="text-ink no-underline hover:text-accent">
               {link.label}

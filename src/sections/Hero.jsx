@@ -36,7 +36,7 @@ export default function Hero() {
 
           <div
             style={{ animationDelay: '0.26s' }}
-            className="flex flex-wrap gap-3 mt-8.5 animate-[riseIn_0.8s_cubic-bezier(0.2,0.8,0.2,1)_both]"
+            className="flex flex-wrap gap-3 mt-8.5 animate-[riseIn_0.8s_cubic-bezier(0.2,0.8,0.2,1)_both] max-[420px]:gap-2"
           >
             <Button href="#projets">Voir mes projets</Button>
             <Button href={CV_PATH} download={CV_FILENAME} variant="outline">
