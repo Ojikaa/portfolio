@@ -12,7 +12,7 @@ export const projects = [
     id: 'job-research',
     title: ['Job', 'Research'],
     description:
-      "Agrégateur personnel d'offres d'emploi (LinkedIn, Indeed…) : extraction et scoring automatiques depuis les alertes email, dédoublonnage, dashboard de suivi des candidatures et statistiques de taux de réponse. La collecte et la génération des candidatures (lettre, CV, message RH) tournent via des routines Claude Code, sans envoi automatique.",
+      "Agrégateur personnel d'offres d'emploi (LinkedIn, Indeed…) : extraction et scoring automatiques depuis les alertes email, dédoublonnage, dashboard de suivi des candidatures et statistiques de taux de réponse.",
     tags: ['React · TypeScript', 'FastAPI', 'PostgreSQL'],
     theme: 'accent',
     images: ['/job-research/dashboard.jpeg', '/job-research/stats.jpeg'],
