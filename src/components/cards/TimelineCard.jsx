@@ -8,7 +8,7 @@ export default function TimelineCard({ entry, delay = 0, isFirst = false, isLast
     <div className="grid grid-cols-2 max-[780px]:grid-cols-1">
       <div
         style={{ animationDelay: `${delay}s` }}
-        className={`relative border px-7 pt-6.5 pb-7 flex flex-col gap-3 animate-[riseIn_0.9s_cubic-bezier(0.2,0.8,0.2,1)_both] max-[780px]:col-start-1 ${
+        className={`relative border px-7 pt-6.5 pb-7 flex flex-col gap-3 transition-[filter] duration-300 hover:brightness-110 animate-[riseIn_0.9s_cubic-bezier(0.2,0.8,0.2,1)_both] max-[780px]:col-start-1 ${
           entry.side === 'left' ? 'col-start-1' : 'col-start-2'
         } ${isDark ? 'bg-panel-dark-bg text-panel-dark-ink border-panel-dark-ink/22' : 'bg-panel-light-bg text-panel-light-ink border-panel-light-ink/18'}`}
       >
